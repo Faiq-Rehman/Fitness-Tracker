@@ -1,0 +1,60 @@
+Username: faiqr5490_db_user
+Password: qAXvXbKcAQ8mq7Lr
+
+Use this connection string in your application:-
+mongodb+srv://faiqr5490_db_user:<db_password>@cluster0.62k91fd.mongodb.net/
+
+Folder Structure For Backend
+
+fitness-tracker-backend
+backend/
+│
+├── config/
+│   └── db.js
+│
+├── controllers/
+│   ├── userController.js
+│   ├── workoutController.js
+│   ├── nutritionController.js
+│   ├── progressController.js
+│   ├── goalController.js
+│   ├── notificationController.js
+│   ├── reportController.js
+│   ├── settingController.js
+│   └── supportController.js
+│
+├── middleware/
+│   └── authMiddleware.js
+│
+├── models/
+│   ├── User.js
+│   ├── Workout.js
+│   ├── Nutrition.js
+│   ├── Progress.js
+│   ├── Goal.js
+│   ├── Notification.js
+│   ├── Report.js
+│   ├── Setting.js
+│   └── SupportTicket.js
+│
+├── routes/
+│   ├── userRoutes.js
+│   ├── workoutRoutes.js
+│   ├── nutritionRoutes.js
+│   ├── progressRoutes.js
+│   ├── goalRoutes.js
+│   ├── notificationRoutes.js
+│   ├── reportRoutes.js
+│   ├── settingRoutes.js
+│   └── supportRoutes.js
+│
+├── utils/
+│   └── generateToken.js
+│
+├── config/
+│   └── db.js
+│
+├── .env
+├── package.json
+├── package-lock.json
+└── server.js
